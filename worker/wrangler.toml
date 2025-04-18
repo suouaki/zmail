@@ -10,7 +10,7 @@ compatibility_date = "2025-03-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "24mail"
-database_id = "2e77ff7b-bc72-4b10-b82c-3916093e642f"  # 需要替换为您的实际数据库 ID
+database_id = "1ad195b7-3755-49d2-b54e-39048556d03c"  # 需要替换为您的实际数据库 ID
 
 # 配置邮件处理
 [triggers]
