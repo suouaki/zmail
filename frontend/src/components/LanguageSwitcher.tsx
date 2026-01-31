@@ -6,9 +6,14 @@ const LanguageSwitcher: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const languages = [
+    { code: 'jp', name: '日本語', icon: 'fa-solid fa-language' },
     { code: 'zh-CN', name: '简体中文', icon: 'fa-solid fa-language' },
     { code: 'en', name: 'English', icon: 'fa-solid fa-language' },
-    { code: 'jp', name: '日本語', icon: 'fa-solid fa-language' },
+    { code: 'kr', name: '한국어', icon: 'fa-solid fa-language' },
+    { code: 'ru', name: 'Русский', icon: 'fa-solid fa-language' },
+    { code: 'Fa', name: 'فارسی', icon: 'fa-solid fa-language' },
+    { code: 'zh-TW', name: '繁體中文', icon: 'fa-solid fa-language' },
+    
   ];
   
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
