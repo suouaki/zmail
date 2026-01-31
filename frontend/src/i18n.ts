@@ -3,8 +3,10 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // 导入翻译文件
+import jp from '../i18n/locales/jp.json';
 import zhCN from '../i18n/locales/zh-CN.json';
 import en from '../i18n/locales/en.json';
+
 
 // 配置i18next
 i18n
@@ -15,6 +17,9 @@ i18n
   // 初始化i18next
   .init({
     resources: {
+      'jp': {
+        translation: jp,
+      },
       'zh-CN': {
         translation: zhCN,
       },
@@ -22,7 +27,7 @@ i18n
         translation: en,
       },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'jp',
     debug: import.meta.env.MODE === 'development',
     interpolation: {
       escapeValue: false, // 不转义HTML
