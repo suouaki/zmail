@@ -8,7 +8,7 @@ import zhCN from '../i18n/locales/zh-CN.json';
 import en from '../i18n/locales/en.json';
 import kr from '../i18n/locales/kr.json';
 import ru from '../i18n/locales/ru.json';
-import Fa from '../i18n/locales/Fa.json';
+import fa from '../i18n/locales/Fa.json';
 import zhTW from '../i18n/locales/zh-TW.json';
 
 
@@ -28,7 +28,7 @@ i18n
         translation: zhTW,
       },
       'Fa': {
-        translation: Fa,
+        translation: fa,
       },
       'ru': {
         translation: ru,
